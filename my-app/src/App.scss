@@ -1,0 +1,31 @@
+// Fallback spacing variables
+$bpk-spacing-sm: 8px;
+$bpk-spacing-md: 16px;
+$bpk-spacing-base: 16px;
+$bpk-spacing-lg: 24px;
+$bpk-spacing-xl: 32px;
+$bpk-spacing-xxl: 40px;
+
+.App {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  &__header {
+    background-color: #002d62; // Skyscanner navy
+    padding: $bpk-spacing-lg * 2;
+    color: white;
+  }
+
+  &__heading {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  &__main {
+    padding: $bpk-spacing-xl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $bpk-spacing-md;
+  }
+}

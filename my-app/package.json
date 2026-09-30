@@ -1,0 +1,40 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@skyscanner/backpack-react-scripts": "^11.2.4",
+    "bpk-component-calendar": "^13.1.2",
+    "date-fns": "^4.4.0",
+    "react-transition-group": "^4.4.5",
+    "sass": "^1.99.0"
+  },
+  "scripts": {
+    "start": "NODE_OPTIONS='-r ./crypto-polyfill.js' react-scripts start",
+    "start-ssr": "react-scripts start-ssr",
+    "build": "react-scripts build",
+    "build-ssr": "react-scripts build-ssr",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-flow": "^7.29.7",
+    "@skyscanner/backpack-web": "^43.19.0",
+    "bpk-mixins": "^42.0.1",
+    "bpk-stylesheets": "^9.0.17",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
